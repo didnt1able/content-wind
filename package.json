@@ -11,7 +11,7 @@
     "content-wind": "latest",
     "nuxt": "latest",
     "swiper": "^11.0.7",
-    "nuxt-ui": "latest"
+    "@nuxt/ui": "latest"
 
   }
 }
