@@ -24,16 +24,16 @@ onMounted(() => {
 </script>
 
 <template>
- <UContainer rounded-lg>
   <UCarousel
     ref="carouselRef"
     v-slot="{ item }"
     :items="items"
-    :ui="{ item: 'basis-full' }"
+    :ui="{ item: 'basis-full',
+           container: 'rounded-lg'
+         }"
     class="rounded-lg overflow-hidden"
     indicators
   >
     <img :src="item" class="w-full" draggable="false">
   </UCarousel>
- </UContainer>
 </template>
