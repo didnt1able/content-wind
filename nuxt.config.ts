@@ -1,4 +1,5 @@
 export default defineNuxtConfig({
-    extends: 'content-wind',
-  modules: ['@nuxt/ui']
+     modules: ['@nuxt/ui'],
+     extends: 'content-wind'
+    
 })
