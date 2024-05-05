@@ -39,7 +39,7 @@ const items = [{
 
     <template #getting-started>
       <div class="text-gray-900 dark:text-white text-center">
-        <Logo class="w-auto  mx-auto" />
+        <Logo class="w-auto h-8 mx-auto" />
 
         <p class="text-sm text-gray-500 dark:text-gray-400 mt-2">
           Fully styled and customizable components for Nuxt.
@@ -66,4 +66,6 @@ const items = [{
     </template>
   </UAccordion>
 </template>
+
+
 
