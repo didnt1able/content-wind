@@ -34,6 +34,6 @@ onMounted(() => {
     class="rounded-lg overflow-hidden"
     indicators
   >
-    <img :src="item" class="w-full" draggable="false">
+    <img :src="item" class="rounded-1g w-full" draggable="false">
   </UCarousel>
 </template>
