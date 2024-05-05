@@ -24,6 +24,7 @@ onMounted(() => {
 </script>
 
 <template>
+ <UContainer rounded-lg>
   <UCarousel
     ref="carouselRef"
     v-slot="{ item }"
@@ -34,4 +35,5 @@ onMounted(() => {
   >
     <img :src="item" class="w-full" draggable="false">
   </UCarousel>
+ </UContainer>
 </template>
