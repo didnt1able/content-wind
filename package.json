@@ -9,6 +9,8 @@
   },
   "devDependencies": {
     "content-wind": "latest",
-    "nuxt": "latest"
+    "nuxt": "latest",
+    "swiper": "^11.0.7"
+
   }
 }
