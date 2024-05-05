@@ -13,10 +13,10 @@
     :modules="modules"
     class="mySwiper"
   >
-    <swiper-slide><img src="/images/Brochure.webp"</swiper-slide>
-    <swiper-slide><img src="/images/img_01.jpg"</swiper-slide>
-    <swiper-slide><img src="/images/img_02.jpg"</swiper-slide>
-    <swiper-slide><img src="/images/img_03.jpg"</swiper-slide>
+    <swiper-slide><img src="1"</swiper-slide>
+    <swiper-slide><img src="2"</swiper-slide>
+    <swiper-slide><img src="3"</swiper-slide>
+    <swiper-slide><img src="4"</swiper-slide>
    
   </swiper>
 </template>
