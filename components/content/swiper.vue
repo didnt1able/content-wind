@@ -1,48 +1,16 @@
-<template>
-  <swiper
-    :spaceBetween="30"
-    :centeredSlides="true"
-    :autoplay="{
-      delay: 50000,
-      disableOnInteraction: true,
-    }"
-    :pagination="{
-      clickable: true,
-    }"
-    :navigation="true"
-    :modules="modules"
-    class="mySwiper"
-  >
-    <swiper-slide>Slide 1</swiper-slide>
-    <swiper-slide>Slide 2</swiper-slide>
-    <swiper-slide>Slide 3</swiper-slide>
-   
-  </swiper>
-</template>
-<script>
-  // Import Swiper Vue.js components
-  import { Swiper, SwiperSlide } from 'swiper/vue';
-
-  // Import Swiper styles
-  import 'swiper/css';
-
-  import 'swiper/css/pagination';
-  import 'swiper/css/navigation';
-
-  import '/components/swiper.css';
-
-  // import required modules
-  import { Autoplay, Pagination, Navigation } from 'swiper/modules';
-
-  export default {
-    components: {
-      Swiper,
-      SwiperSlide,
-    },
-    setup() {
-      return {
-        modules: [Autoplay, Pagination, Navigation],
-      };
-    },
-  };
+<script setup lang="ts">
+const items = [
+  'https://picsum.photos/600/800?random=1',
+  'https://picsum.photos/600/800?random=2',
+  'https://picsum.photos/600/800?random=3',
+  'https://picsum.photos/600/800?random=4',
+  'https://picsum.photos/600/800?random=5',
+  'https://picsum.photos/600/800?random=6'
+]
 </script>
+
+<template>
+  <UCarousel v-slot="{ item }" :items="items">
+    <img :src="item" width="300" height="400" draggable="false">
+  </UCarousel>
+</template>
