@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script  lang="ts">
 const items = [
   'https://picsum.photos/1920/1080?random=1',
   'https://picsum.photos/1920/1080?random=2',
@@ -38,7 +38,7 @@ onMounted(() => {
   </UCarousel>
 </template>
 
-<script setup lang="ts">
+<script  lang="ts">
 const people = [
   { id: 1, label: 'Wade Cooper' },
   { id: 2, label: 'Arlene Mccoy' },
