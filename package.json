@@ -10,7 +10,7 @@
   "devDependencies": {
     "content-wind": "latest",
     "nuxt": "latest",
-    "daisyui": "latest"
+    "@nuxt/ui": "latest"
 
   }
 }
