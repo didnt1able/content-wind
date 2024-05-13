@@ -9,8 +9,7 @@
   },
   "devDependencies": {
     "content-wind": "latest",
-    "nuxt": "latest",
-    "@nuxt/ui": "latest"
+    "nuxt": "latest"
 
   }
 }
